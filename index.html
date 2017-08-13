@@ -19,32 +19,6 @@
         <h4>
         Last edited: 8:49pm 12 August 2017
         </h4>
-        <SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "zopsbobby") {
-alert('You Got it Right!');
-window.open('https://youtu.be/z8wumYZgZ_g');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
     </body>
     <style>
         body{color:#7f00ff;
